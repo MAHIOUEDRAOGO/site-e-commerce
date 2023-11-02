@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="acceuil.css">
+</head>
+<body>
+        <!-- debut de la navbar -->
+        <div class="navigation fixed-top ">
+            <div class="nav1 ">
+              <div class="logo"><img src="image/logo.png" width="50" height="50" alt="">Open tech</div>
+              <form class="d-flex" role="search">
+                <input class="form-control recherche me-2  " type="search" placeholder="Exemple: Ordinateur" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">Recherche</button>
+              </form>
+              <div class="user">
+                <li class="nav-item dropdown">
+                <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="image/user.jpg" width="40" height="40" alt="user">  </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="connexion.html">Se Connecter </a></li>
+                    <li><a class="dropdown-item" href="compte.html">Créer un compte</a></li>
+              </ul>  
+              </li>
+                <a href=""><img src="image/cart.jpg" width="40" height="40" alt="cart"> </a>
+              </div>
+            </div>
+            <div class="nav2 container-fluid navbar-expand-lg">
+              <ul>
+                <li><a href="index.html">Acceuil</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   Produits
+                  </a>
+                  <ol class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="smartphone.html">Smartphones</a></li>
+                    <li><a class="dropdown-item" href="ordinateur.html">Ordinateurs</a></li>
+                    <li><a class="dropdown-item" href="accessoire.html">Accessoires</a></li>
+                  </ol>
+                </li>
+                <li><a href="qui sommes-nous.html">Qui sommes-nous?</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+
+        <!-- fin de la navbar -->
+
+<section class="cpt">
+    <div class="compte"> 
+  
+    <form action="">
+      <h2>Créer un compte</h2>
+      <div class="compte2">
+      <input type="text" name="user" id="user" placeholder="Nom d'utilisateur" required><br>
+      <input type="text" name="nom" id="nom" placeholder="Nom" required>
+      <input type="text" name="prenom" id="prenom" placeholder="Prenom" required><br> 
+      <input type="email" name="nom" id="nom" placeholder="Adresse mail"><br>
+      <input type="password" name="passe" id="passe" placeholder="Mot de passe" required><br>
+      <input type="submit" value="Créer">
+    </div>
+    </form>
+  
+  
+  
+  </div>
+  </section>
+
+
+  <!-- debut de footer -->
+
+ <footer>
+  <div class="pied">
+          <div class="opentech">
+            <h2><strong>Open Tech</strong></h2>
+            <p>À <strong>Open Tech</strong>, notre passion est de vous fournir les derniers<br>
+               appareils informatiques et les solutions technologiques les plus avancées. <br>
+               En tant que votre destination en ligne de confiance, nous nous engageons<br>
+               à offrir les produits informatiques de la plus haute qualité, ainsi que le service <br>
+                client exceptionnel pour vous accompagner dans vos besoins informatiques.
+               </p>
+              
+          </div>
+        
+          <div class="localisation">
+            <h2><strong>Localisation</strong></h2>
+           <i class="fa-solid fa-location-dot p-1"></i> Ouagadougou: Ouaga 2000 et Goughin <br>
+            <i class="fa-solid fa-location-dot p-1"> </i> Pouytenga: Grand marché<br>
+            <i class="fa-solid fa-location-dot p-1"></i> Ouhigouya: secteur2<br>
+            <i class="fa-solid fa-location-dot p-1"></i> Koudougou: secteur9<br>
+            <i class="fa-solid fa-location-dot p-1"></i> Bobo Dioulasso: secteur5<br>
+            <i class="fa-solid fa-location-dot p-1"></i> Tenkodogo: secteur4<br>
+          </div>
+        
+          <div class="conact">
+            <h2><strong>Contact</strong></h2>
+            <p>Pour plus d'infos contactez nous sur ces numeros:</p>
+            <i class="fa-solid fa-phone p-1 "></i> +226 65840363<br>
+            <i class="fa-brands fa-whatsapp p-1"></i> +226 54946047 <br>
+            <i class="fa-solid fa-envelope p-1"></i> opentech@gmail.com <br>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+           
+          </div>
+        </div>
+        </footer>
+
+        <!-- fin de  footer -->
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
